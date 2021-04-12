@@ -114,7 +114,6 @@ Get employee by Lastname - \
 ## Setup
 
 ```python
-cd NodeJS-JWT-RBA-JobSite
 npm install
 node server.js
 ```
