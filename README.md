@@ -107,14 +107,20 @@ Get employee by Lastname - \
 ``` /api/test/employee/lname/:lname ```
 
 
+DB Details:
+We make use of Belongs to many method to connect the user or employee DB with the roles. We maintain roles in a seperate Table. The sequalize can automatically map and create tables for mapping with roles
 
+```/api/test/users?field=valA&toOrder=valB&pgLimit=valC&pgOffset=valD
+Query Params field - DB Column, Order - ASC/DESC, pgLimit - int, pgOffset - int
+```
 
-
+```
+/api/test/users -> gives list sorted by latest entries
+```
 
 ## Setup
 
 ```python
-cd NodeJS-JWT-RBA-JobSite
 npm install
 node server.js
 ```

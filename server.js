@@ -30,7 +30,7 @@ db.sequelize.sync({force: false}).then(() => {
 
 // Base Route
 app.get("/", (req, res) => {
-  res.json({ message: "Welcome to Job Search Portal." });
+  res.json({ message: "Welcome to Antartica." });
 });
 
 // Import RBA routes
